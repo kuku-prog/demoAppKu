@@ -15,7 +15,7 @@ function Login() {
 		};
 		console.log(data);
 		// send data to server
-		const apiUrl = "http://localhost:8989/login"; // api of where am sending to.
+		const apiUrl = "http://52.37.234.99:8989/login"; // api of where am sending to.
 		const requestOptions = {
 			method: "POST",
 			headers: {
